@@ -1,0 +1,105 @@
+1. What is an operating system?
+a) interface between the hardware and application programs
+b) collection of programs that manages hardware resources
+c) system service provider to the application programs
+d) all of the mentioned
+View Answer
+
+2. What is the main function of the command interpreter?
+a) to provide the interface between the API and application program
+b) to handle the files in the operating system
+c) to get and execute the next user-specified command
+d) none of the mentioned
+View Answer
+
+3. In Operating Systems, which of the following is/are CPU scheduling algorithms?
+a) Priority
+b) Round Robin
+c) Shortest Job First
+d) All of the mentioned
+View Answer
+
+4. To access the services of the operating system, the interface is provided by the ___________
+a) Library
+b) System calls
+c) Assembly instructions
+d) API
+View Answer
+
+5. CPU scheduling is the basis of ___________
+a) multiprogramming operating systems
+b) larger memory sized systems
+c) multiprocessor systems
+d) none of the mentioned
+View Answer
+
+advertisement
+6. Which one of the following is not true?
+a) kernel remains in the memory during the entire computer session
+b) kernel is made of various modules which can not be loaded in running operating system
+c) kernel is the first part of the operating system to load into memory during booting
+d) kernel is the program that constitutes the central core of the operating system
+View Answer
+
+7. Which one of the following errors will be handle by the operating system?
+a) lack of paper in printer
+b) connection failure in the network
+c) power failure
+d) all of the mentioned
+View Answer
+
+8. Where is the operating system placed in the memory?
+a) either low or high memory (depending on the location of interrupt vector)
+b) in the low memory
+c) in the high memory
+d) none of the mentioned
+View Answer
+
+9. If a process fails, most operating system write the error information to a ______
+a) new file
+b) another running process
+c) log file
+d) none of the mentioned
+View Answer
+
+10. Which one of the following is not a real time operating system?
+a) RTLinux
+b) Palm OS
+c) QNX
+d) VxWorks
+View Answer
+
+11. What does OS X has?
+a) monolithic kernel with modules
+b) microkernel
+c) monolithic kernel
+d) hybrid kernel
+View Answer
+
+12. In operating system, each process has its own __________
+a) open files
+b) pending alarms, signals, and signal handlers
+c) address space and global variables
+d) all of the mentioned
+View Answer
+
+13. In a timeshare operating system, when the time slot assigned to a process is completed, the process switches from the current state to?
+a) Suspended state
+b) Terminated state
+c) Ready state
+d) Blocked state
+View Answer
+
+14. Cascading termination refers to the termination of all child processes if the parent process terminates ______
+a) Normally or abnormally
+b) Abnormally
+c) Normally
+d) None of the mentioned
+View Answer
+
+15. When a process is in a “Blocked” state waiting for some I/O service. When the service is completed, it goes to the __________
+a) Terminated state
+b) Suspended state
+c) Running state
+d) Ready state
+View Answer

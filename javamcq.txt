@@ -1,0 +1,986 @@
+1. 
+Number of primitive data types in Java are?
+
+
+6
+
+
+7
+
+
+8
+
+
+9
+
+Check Answer
+There are 8 types of primitive data types- int, char, boolean, byte, long, float, short, double.
+
+2. 
+What is the size of float and double in java?
+
+
+32 and 64
+
+
+32 and 32
+
+
+64 and 64
+
+
+64 and 32
+
+Check Answer
+The size of float and double in java is 32 and 64.
+
+3. 
+Automatic type conversion is possible in which of the possible cases?
+
+
+Byte to int
+
+
+Int to long
+
+
+Long to int
+
+
+Short to int
+
+Check Answer
+Automatic type conversion is possible in Int to long.
+
+4. 
+Find the output of the following code.
+
+int Integer = 24;
+char String  = ‘I’;
+System.out.print(Integer);
+System.out.print(String);
+
+Compile error
+
+
+Throws exception
+
+
+I
+
+
+24 I
+
+Check Answer
+ 24 I will be printed.
+
+5. 
+Find the output of the following program.
+
+public class Solution{
+       public static void main(String[] args){
+                     short x = 10;
+                     x =  x * 5;
+                     System.out.print(x);
+       }
+}
+
+50
+
+
+10
+
+
+Compile error
+
+
+Exception
+
+Check Answer
+This will give compile error - “Lossy conversion from int to short”
+
+6. 
+Find the output of the following program.
+
+public class Solution{
+       public static void main(String[] args){
+                     byte x = 127;
+                     x++;
+                     x++;
+                     System.out.print(x);
+       }
+}
+
+-127
+
+
+127
+
+
+129
+
+
+2
+
+Check Answer
+Range of byte data in java is -128 to 127. But the byte data type in java is cyclic in nature.
+
+7. 
+Select the valid statement.
+
+
+char[] ch = new char(5)
+
+
+char[] ch = new char[5]
+
+
+char[] ch = new char()
+
+
+char[] ch = new char[]
+
+Check Answer
+char[] ch = new char[5] is the correct syntax for declaring a character array.
+
+8. 
+Find the output of the following program.
+
+public class Solution{
+       public static void main(String[] args){
+               int[]  x = {120, 200, 016};
+               for(int i = 0; i < x.length; i++){
+                        System.out.print(x[i] + “ “);
+               }                   
+       }
+}
+
+120 200 016
+
+
+120 200 14
+
+
+120 200 16
+
+
+None
+
+Check Answer
+016 is an octal number, its equivalent decimal number is 14. Hence answer is B.
+
+9. 
+When an array is passed to a method, what does the method receive?
+
+
+The reference of the array
+
+
+A copy of the array
+
+
+Length of the array
+
+
+Copy of first element
+
+Check Answer
+When an array is passed to a method, a reference of the array is received by the method.
+
+10. 
+Select the valid statement to declare and initialize an array.
+
+
+int[] A = {}
+
+
+int[] A = {1, 2, 3}
+
+
+int[] A = (1, 2, 3)
+
+
+int[][] A = {1,2,3}
+
+Check Answer
+int[] A = {1, 2, 3} is the valid way of declaring arrays.
+
+11. 
+Find the value of A[1] after execution of the following program.
+
+int[] A = {0,2,4,1,3};
+for(int i = 0; i < a.length; i++){
+    a[i] = a[(a[i] + 3) % a.length];
+}
+
+0
+
+
+1
+
+
+2
+
+
+3
+
+Check Answer
+a.length = 5
+             A[0] = a[(0 + 3) % 5] = a[3] = 1
+             So, a[0] =  a[3] = 1
+             A[1] = a[(2 + 3) % 5] = a[0] = 1
+             Therefore, a[1] = 1;
+
+12. 
+Arrays in java are-
+
+
+Object references
+
+
+objects
+
+
+Primitive data type
+
+
+None
+
+Check Answer
+Arrays are objects in java. It is a container that holds a fixed number of items of a single type.
+
+13. 
+When is the object created with new keyword?
+
+
+At run time
+
+
+At compile time
+
+
+Depends on the code
+
+
+None
+
+Check Answer
+The object created with new keyword during run-time.
+
+14. 
+Identify the corrected definition of a package.
+
+
+A package is a collection of editing tools
+
+
+A package is a collection of classes
+
+
+A package is a collection of classes and interfaces
+
+
+A package is a collection of interfaces
+
+Check Answer
+A package is a collection of classes and interfaces.
+
+15. 
+Identify the correct restriction on static methods.
+
+They must access only static data
+They can only call other static methods.
+They cannot refer to this or super.
+
+I and II
+
+
+II and III
+
+
+Only III
+
+
+I, II and III
+
+Check Answer
+Static methods must only access static data and can call other static methods. Moreover they cannot refer this or super.
+
+16. 
+Identify the keyword among the following that makes a variable belong to a class,rather than being defined for each instance of the class.
+
+
+final
+
+
+static
+
+
+volatile
+
+
+abstract
+
+Check Answer
+Static keyword makes a variable belong to a class,rather than being defined for each instance of the class.
+
+17. 
+Identify what can directly access and change the value of the variable res.
+
+Package com.mypackage;
+Public class Solution{
+       Private int res = 100;
+}
+
+Any class
+
+
+Only Solution class
+
+
+Any class that extends Solution
+
+
+None
+
+Check Answer
+Only solution class can directly access and change the value of the variable res.
+
+18. 
+In which of the following is toString() method defined?
+
+
+java.lang.Object
+
+
+java.lang.String
+
+
+java.lang.util
+
+
+None
+
+Check Answer
+toString() is defined in java.lang.Object.
+
+19. 
+compareTo() returns
+
+
+True
+
+
+False
+
+
+An int value
+
+
+None
+
+Check Answer
+compareTo() returns an int value
+
+20. 
+Identify the output of the following program.
+
+String str = “abcde”;
+System.out.println(str.substring(1, 3));
+
+abc
+
+
+bc
+
+
+bcd
+
+
+cd
+
+Check Answer
+str.substring(start, end) returns the string from s[start] till s[end - 1]
+
+21. 
+Identify the output of the following program.
+
+String str = “Hellow”;
+System.out.println(str.indexOf(‘t));
+
+0
+
+
+1
+
+
+true
+
+
+-1
+
+Check Answer
+Since, t isn’t present in the string str, it returns -1.
+
+22. 
+Identify the output of the following program.
+
+Public class Test{
+          Public static void main(String argos[]){
+                   String str1 = “one”;
+                   String str2 = “two”;
+                   System.out.println(str1.concat(str2));
+          }
+}
+
+one
+
+
+two
+
+
+onetwo
+
+
+twoone
+
+Check Answer
+concat attached both the string. Hence answer is C.
+
+23. 
+What does the following string do to given string str1.
+
+String str1 = “Interviewbit”.replace(‘e’,’s’);
+
+
+Replaces single occurrence of ‘e’ to ‘s’.
+
+
+Replaces all occurrences of ‘e’ to ‘s’.
+
+
+Replaces single occurrence of ‘s’ to ‘e’.
+
+
+None.
+
+Check Answer
+replace() replaces all the occurrences of the oldcharacter by the newcharacter.
+
+24. 
+To which of the following does the class string belong to.
+
+
+java.lang
+
+
+java.awt
+
+
+java.applet
+
+
+java.string
+
+Check Answer
+string class belongs to java.lang.
+
+25. 
+How many objects will be created in the following?
+
+String a = new String(“Interviewbit”);
+String b = new String(“Interviewbit”);
+Strinc c = “Interviewbit”;
+String d = “Interviewbit”;
+
+2
+
+
+3
+
+
+4
+
+
+None
+
+Check Answer
+Using the new keyword creates an object everytime. Hence, 2 objects are created for first two statement. Next, a string is declared which creates another object. For the fourth statement, since, a string ”Interviewbit” already exists, it doesn’t create an additional object again. Hence, answer is 3.
+
+26. 
+Total constructor string class have?
+
+
+3
+
+
+7
+
+
+13
+
+
+20
+
+Check Answer
+String class has 13 constructors.
+
+27. 
+Find the output of the following code.
+
+int ++a = 100;
+System.out.println(++a);
+
+101
+
+
+Compile error as ++a is not valid identifier
+
+
+100
+
+
+None
+
+Check Answer
+ It shows compile error as ++a is not valid identifier.
+
+28. 
+Find the output of the following code.
+
+if(1 + 1 + 1 + 1 + 1 == 5){
+  System.out.print(“TRUE”);
+}
+else{
+  System.out.print(“FALSE”);
+}
+
+TRUE
+
+
+FALSE
+
+
+Compile error
+
+
+None
+
+Check Answer
+Since, LHS matches RHS, hence the output is TRUE.
+
+29. 
+Find the output of the following code.
+
+Public class Solution{
+      Public static void main(String… argos){
+             Int x = 5;
+             x * = (3 + 7);
+             System.out.println(x);
+
+50
+
+
+22
+
+
+10
+
+
+None
+
+Check Answer
+Explanation - x* = 3 + 7 is equivalent to x * (3 + 7) = x * 10. Therefore, x = 50.
+
+30. 
+Identify the return type of a method that does not return any value.
+
+
+int
+
+
+void
+
+
+double
+
+
+None
+
+Check Answer
+void does not return any value.
+
+31. 
+Output of Math.floor(3.6)?
+
+
+3
+
+
+3.0
+
+
+4
+
+
+4.0
+
+Check Answer
+floor returns largest integer that is less than or equal to the given number.
+
+32. 
+Where does the system stores parameters and local variables whenever a method is invoked?
+
+
+Heap
+
+
+Stack
+
+
+Array
+
+
+Tree
+
+Check Answer
+The system stores parameters and local variables in a stack.
+
+33. 
+Identify the modifier which cannot be used for constructor.
+
+
+public
+
+
+protected
+
+
+private
+
+
+static
+
+Check Answer
+Static cannot be used for constructor.
+
+34. 
+What is the variables declared in a class for the use of all methods of the class called?
+
+
+Object
+
+
+Instance variables
+
+
+Reference variable
+
+
+None
+
+Check Answer
+It is know as instance variable.
+
+35. 
+What is the implicit return type of constructor?
+
+
+No return type
+
+
+A class object in which it is defined
+
+
+void
+
+
+None
+
+Check Answer
+Implicit return type of constructor is the class object in which it is defined.
+
+36. 
+When is the finalize() method called?
+
+
+Before garbage collection
+
+
+Before an object goes out of scope
+
+
+Before a variable goes out of scope
+
+
+None
+
+Check Answer
+finalize() method is called before garbage collection.
+
+37. 
+Identify the prototype of the default constructor.
+
+Public class Solution {}
+
+
+Solution(void)
+
+
+Solution()
+
+
+public Solution(void)
+
+
+public Solution()
+
+Check Answer
+public Solution() is the prototype of the default constructor.
+
+38. 
+Identify the correct way of declaring constructor.
+
+Public class Solution {}
+
+
+Solution(){}
+
+
+public Solution(){}
+
+
+Solution(void){}
+
+
+Both (A) and (B)
+
+Check Answer
+Both A and B are correct way of declaring constructor.
+
+39. 
+Find the output of the following code.
+
+Public class Solution{
+         Public static void main(String args[]){
+                 Int i;
+                 for(i = 1; i < 6; i++){ 
+                     if(i > 3) continue;
+                 }
+                 System.out.println(i);
+          }
+}
+
+3
+
+
+4
+
+
+5
+
+
+6
+
+Check Answer
+Since, the loop runs till 6, the value of i is 6.
+
+40. 
+How many times will “Interviewbit” be printed.
+
+Int count = 0;
+do{
+  System.out.println(“Interviewbit”);
+  count++;
+} while(count < 10);
+
+8
+
+
+9
+
+
+10
+
+
+11
+
+Check Answer
+Interviewbit will be printed 10 times, starting from count = 0.
+
+41. 
+Identify the infinite loop.
+
+
+for(; ;)
+
+
+for(int i = 0; i < 1; i--)
+
+
+for(int i = 0; ;i++)
+
+
+All of the above
+
+Check Answer
+All of the above are infinite loop.
+
+42. 
+What is Runnable?
+
+
+Abstract class
+
+
+Interface
+
+
+Class
+
+
+Method
+
+Check Answer
+Runnable is an interface.
+
+43. 
+Exception created by try block is caught in which block
+
+
+catch
+
+
+throw
+
+
+final
+
+
+none
+
+Check Answer
+Answer- A) Exception created by try block is caught in catch block.
+
+44. 
+Which of the following exception is thrown when divided by zero statement is executed?
+
+
+NullPointerException
+
+
+NumberFormatException
+
+
+ArithmeticException
+
+
+None
+
+Check Answer
+ArithmeticException  is thrown when divided by zero statement is executed.
+
+45. 
+Where is System class defined?
+
+
+java.lang.package
+
+
+java.util.package
+
+
+java.io.package
+
+
+None
+
+Check Answer
+System class is defined in java.lang.package.
+
+46. 
+Identify the interface which is used to declare core methods in java?
+
+
+Comparator
+
+
+EventListener
+
+
+Set
+
+
+Collection
+
+Check Answer
+Collection is used to declare core methods in java.
+
+47. 
+Which of the following statements are true about finalize() method?
+
+
+It can be called Zero or one times
+
+
+It can be called Zero or more times
+
+
+It can be called Exactly once
+
+
+ It can be calledOne or more times
+
+Check Answer
+The finalize() method can be called Zero or one times.
+
+48. 
+What does the operator >>>> do?
+
+
+Right shift operator
+
+
+Left shift operator
+
+
+Zero fill left shift
+
+
+Zero fill right shift
+
+Check Answer
+>>>> is Zero fill right shift.
+
+49. 
+Identify the incorrect Java feature.
+
+
+Object oriented
+
+
+Use of pointers
+
+
+Dynamic
+
+
+Architectural neural
+
+Check Answer
+Java does have the concept of pointers.
+
+50. 
+Which of the following is used to find and fix bugs in the program?
+
+
+JDK
+
+
+JRE
+
+
+JVM
+
+
+JDB
